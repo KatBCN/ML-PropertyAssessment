@@ -1,0 +1,9 @@
+,Model,Features,MSE,RMSE,Mean Abs. Error,Median Abs. Error,R2 Score
+0,OLS,"['Property Class Description', 'Neighborhood', 'Front', 'Age', 'Total Living Area', '# of Fireplaces', '# of Beds', 'TotalBaths']",1178757907.56,34333.04,19215.9,10290.11,0.57
+1,OLS,"['Property Class Description', 'Neighborhood', 'Front', 'Age', 'Total Living Area', '# of Fireplaces', '# of Beds', 'TotalBaths', 'Overall Condition', 'Building Style', 'Heat Type']",1072310385.78,32746.15,18162.59,9532.94,0.61
+2,Lasso,"['Property Class Description', 'Neighborhood', 'Front', 'Age', 'Total Living Area', '# of Fireplaces', '# of Beds', 'TotalBaths']",1178763857.97,34333.13,19215.48,10303.28,0.57
+3,Lasso,"['Property Class Description', 'Neighborhood', 'Front', 'Age', 'Total Living Area', '# of Fireplaces', '# of Beds', 'TotalBaths', 'Overall Condition', 'Building Style', 'Heat Type']",1072396954.99,32747.47,18162.26,9533.1,0.61
+4,Ridge,"['Property Class Description', 'Neighborhood', 'Front', 'Age', 'Total Living Area', '# of Fireplaces', '# of Beds', 'TotalBaths']",1178969176.13,34336.12,19223.82,10306.85,0.57
+5,Ridge,"['Property Class Description', 'Neighborhood', 'Front', 'Age', 'Total Living Area', '# of Fireplaces', '# of Beds', 'TotalBaths', 'Overall Condition', 'Building Style', 'Heat Type']",1073131371.59,32758.68,18175.85,9527.37,0.61
+6,Huber,"['Property Class Description', 'Neighborhood', 'Front', 'Age', 'Total Living Area', '# of Fireplaces', '# of Beds', 'TotalBaths']",1250470012.08,35361.99,18109.54,8138.96,0.55
+7,Huber,"['Property Class Description', 'Neighborhood', 'Front', 'Age', 'Total Living Area', '# of Fireplaces', '# of Beds', 'TotalBaths', 'Overall Condition', 'Building Style', 'Heat Type']",1155023228.41,33985.63,17153.17,7721.32,0.58
